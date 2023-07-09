@@ -1,6 +1,6 @@
 .container {
     width: 1024px;
-    background-color: rgb(18, 60, 12);
+    /* background-color: rgb(18, 60, 12); */
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -12,7 +12,7 @@ header {
 }
 
 main {
-    background-color: rgb(49, 139, 41);
+    /* background-color: rgb(49, 139, 41); */
     min-height: 300px;
     display: flex;
     align-items: center;
@@ -44,11 +44,11 @@ main {
 }
 
 .herobox1 {
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     flex: 2;
 }
 
 .herobox2 {
-    background-color: mintcream;
+    /* background-color: mintcream; */
     flex: 1;
 }
