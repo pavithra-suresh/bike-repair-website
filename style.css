@@ -28,6 +28,7 @@ header {
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
 }
 
 main {
@@ -137,8 +138,28 @@ p {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
 }
 
+.mybutton:hover {
+    background-color: rgb(29, 213, 103);
+    transition-duration: 1s;
+}
+
 .navbutton {
     font-family: 'Playfair Display', serif;
     border: 1px solid white;
     padding: 11px 25px;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin-top: 50px;
 }
