@@ -9,6 +9,7 @@ body {
     /* font-family: Arial, Helvetica, sans-serif; */
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
 }
 
 .container {
@@ -64,6 +65,7 @@ main {
 .herobox1 {
     /* background-color: cornflowerblue; */
     flex: 2;
+    padding-right: 100px;
 }
 
 .herobox2 {
@@ -72,6 +74,12 @@ main {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 3.25rem;
     font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
 }
