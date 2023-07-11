@@ -147,6 +147,8 @@ p {
     font-family: 'Playfair Display', serif;
     border: 1px solid white;
     padding: 11px 25px;
+    display: inline-block;
+    position: relative;
 }
 
 .testimonials {
@@ -171,4 +173,30 @@ p {
 .tbox p:last-of-type {
     font-size: 0.8rem;
     padding-left: 30px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: -30px;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: white;
+}
+
+.dropdown .navbutton a {
+    color: #fa4083;
+}
+
+.dropdown .navbutton:hover {
+    background-color: lightgray;
 }
